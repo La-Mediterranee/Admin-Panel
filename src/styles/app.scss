@@ -1,0 +1,25 @@
+.no-bg {
+	background: rgba(0, 0, 0, 0);
+}
+
+.w-100 {
+	width: 100%;
+}
+
+:root {
+	--theme-card-border-radius: 0.7em;
+}
+
+.theme--dark ::before {
+	--theme-text-primary: #ffffff;
+	--theme-text-secondary: rgba(255, 255, 255, 0.7);
+	--theme-text-disabled: rgba(255, 255, 255, 0.5);
+	--theme-text-fields-border: rgba(255, 255, 255, 0.7);
+	--theme-text-fields-border-hover: var(--theme-text-primary);
+	--theme-text-fields-border-width: 0.165em;
+	--theme-text-fields-border-width-hover: 0.165em 0 0 0;
+}
+
+.outlined ::before {
+	--theme-text-fields-border-width-hover: 0.165em;
+}

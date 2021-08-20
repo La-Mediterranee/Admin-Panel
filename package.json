@@ -11,23 +11,30 @@
 		"lint": "eslint --ignore-path .gitignore ."
 	},
 	"devDependencies": {
+		"@mdi/js": "^5.9.55",
+		"@sveltejs/adapter-static": "^1.0.0-next.16",
 		"@sveltejs/kit": "next",
-		"@types/cookie": "^0.4.1",
-		"@typescript-eslint/eslint-plugin": "^4.19.0",
-		"@typescript-eslint/parser": "^4.19.0",
-		"eslint": "^7.22.0",
+		"@sveltejs/svelte-virtual-list": "^3.0.1",
+		"@typescript-eslint/eslint-plugin": "^4.29.2",
+		"@typescript-eslint/parser": "^4.29.2",
+		"d3-array": "^3.0.2",
+		"d3-scale": "^4.0.0",
+		"d3-shape": "^3.0.1",
+		"eslint": "^7.32.0",
 		"eslint-plugin-svelte3": "^3.2.0",
 		"firebase": "^9.0.0-beta.8",
-		"firebase-admin": "^9.11.0",
+		"layercake": "^5.0.0",
+		"sass": "^1.38.0",
 		"svelte": "^3.42.1",
-		"svelte-check": "^2.0.0",
-		"svelte-preprocess": "^4.0.0",
-		"tslib": "^2.0.0",
-		"typescript": "^4.0.0"
+		"svelte-check": "^2.2.4",
+		"svelte-material-components": "github:abdo643-HULK/svelte-material",
+		"svelte-preprocess": "^4.7.4",
+		"tslib": "^2.3.1",
+		"typescript": "^4.3.5"
 	},
 	"dependencies": {
-		"cookie": "^0.4.1",
-		"sass": "^1.37.5",
-		"svelte-material-components": "github:abdo643-HULK/svelte-material"
+		"@types/d3-selection": "^3.0.1",
+		"d3-axis": "^3.0.0",
+		"d3-selection": "^3.0.0"
 	}
 }
